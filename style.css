@@ -406,12 +406,20 @@ span{
     margin-top: 100px;
 }
 
+
+
 .project-one{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 2rem;
+    padding-bottom: 2rem;  
+    transition: 0.5s; 
+}
 
+.project-one:hover{
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray;
+    transform: scale(1.1)
 }
 
 .project-two{
@@ -419,7 +427,13 @@ span{
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 2rem;
+    transition: .5s;
+}
 
+.project-two:hover{
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray ;
+    transform: scale(1.1)
 }
 
 .project-three{
@@ -427,7 +441,13 @@ span{
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 2rem;
+    transition: .5s
+}
 
+.project-three:hover{
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray ;
+    transform: scale(1.1)
 }
 
 .project-container img{
